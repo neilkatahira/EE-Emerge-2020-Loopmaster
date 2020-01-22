@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>msp430_MSP-EXP430G2553LP_Wire</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.genmakebuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.managedbuilder.core.ScannerConfigBuilder</name>
+			<triggers>full,incremental,</triggers>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.ti.ccstudio.energia.sketchNature</nature>
+		<nature>com.ti.ccstudio.core.ccsNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.managedBuildNature</nature>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Wire.cpp</name>
+			<type>1</type>
+			<locationURI>ENERGIA_LIB__WIRE/Wire.cpp</locationURI>
+		</link>
+		<link>
+			<name>utility/twi.c</name>
+			<type>1</type>
+			<locationURI>ENERGIA_LIB__WIRE/utility/twi.c</locationURI>
+		</link>
+		<link>
+			<name>utility/twi_sw.c</name>
+			<type>1</type>
+			<locationURI>ENERGIA_LIB__WIRE/utility/twi_sw.c</locationURI>
+		</link>
+	</linkedResources>
+</projectDescription>
