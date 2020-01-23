@@ -1,6 +1,7 @@
 
 
 import sensor, image, time, pyb, ustruct
+from pyb import UART
 
 # Color Tracking Thresholds (L Min, L Max, A Min, A Max, B Min, B Max)
 # The below thresholds track in general red/green things. You may wish to tune them...
@@ -8,6 +9,8 @@ thresholds = [(30, 100, 15, 127, 15, 127), # generic_red_thresholds -> index is 
               (30, 100, -64, -8, -32, 32), # generic_green_thresholds -> index is 1 so code == (1 << 1)
               (0, 15, 0, 40, -80, -20)] # generic_blue_thresholds -> index is 2 so code == (1 << 2)
 # Codes are or'ed together when "merge=True" for "find_blobs".
+uart = UART(3,19200)
+uart.init(19200, bits=8, parity=None, stop=1, timeout_char=1000)
 
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
@@ -34,6 +37,7 @@ while(True):
             #all this code above just draws the outline of what it find, for troubleshooting
 
             # split the screen into 5 regions
+            chord = 0
             if ((blob.cx() <= 32) and (blob.cy() <= 32)):
                 print("1")
                 img.draw_rectangle(0,0,32,32,(255,0,0))
@@ -54,11 +58,9 @@ while(True):
                 print("5")
                 img.draw_rectangle(64,45,32,32,(255,0,0))
                 chord = 5
-            else:
-                print("0")
-                chord = 0
 
     data = ustruct.pack("i", 85, chord)
+    uart.write(data)
 
 # this is to draw the boxes to show the different regions
 
