@@ -10,8 +10,8 @@ thresholds = [(30, 100, 15, 127, 15, 127), # generic_red_thresholds -> index is 
               (0, 15, 0, 40, -80, -20)] # generic_blue_thresholds -> index is 2 so code == (1 << 2)
 # Codes are or'ed together when "merge=True" for "find_blobs".
 
-uart = UART(3,19200)
-uart.init(19200, bits=8, parity=None, stop=1, timeout_char=1000)
+uart = UART(3,115200,timeout_char=1000)
+uart.init(115200, bits=8, parity=None, stop=1, timeout_char=1000)
 
 sensor.reset()
 sensor.set_pixformat(sensor.RGB565)
@@ -28,6 +28,7 @@ clock = time.clock()
 while(True):
     clock.tick()
     img = sensor.snapshot()
+    chord = "0"
     #takes a snapshot -> returns class image
     #findblobs takes class image, and returns a list of class blob
     for blob in img.find_blobs(thresholds, pixels_threshold=10, area_threshold=10, merge=True):
@@ -37,44 +38,25 @@ while(True):
             img.draw_cross(blob.cx(), blob.cy())
             img.draw_string(blob.x() + 2, blob.y() + 2, "r/g")
             #all this code above just draws the outline of what it find, for troubleshooting
-            chord = "0"
             # split the screen into 5 regions
-            if ((blob.cx() <= 32) and (blob.cy() <= 32)):
+            if ((blob.cx() <= 45) and (blob.cy() <= 45)):
                 print("1")
-                img.draw_rectangle(0,0,32,32,(255,0,0))
+                img.draw_rectangle(0,0,45,45,(255,0,0))
                 chord = "1"
-            if ((blob.cx() <= 32) and (blob.cy() >= 88)):
+            if ((blob.cx() <= 45) and (blob.cy() >= 120-45)):
                 print("2")
-                img.draw_rectangle(160-32,0,32,32,(255,0,0))
+                img.draw_rectangle(0,120-45,45,45,(255,0,0))
                 chord = "2"
             if (blob.cx() >= 128 and blob.cy() <= 32):
                 print("3")
-                img.draw_rectangle(160-32,120-32,32,32,(255,0,0))
+                img.draw_rectangle(160-45,0,45,45,(255,0,0))
                 chord = "3"
             if (blob.cx() >= 128 and blob.cy() >= 88):
                 print("4")
-                img.draw_rectangle(0,120-32,32,32,(255,0,0))
+                img.draw_rectangle(160-45,120-45,45,45,(255,0,0))
                 chord = "4"
             if ((blob.cx() >= 64 and blob.cx() <= 96) and (blob.cy() >= 45 and blob.cy() <= 77)):
                 print("5")
-                img.draw_rectangle(64,45,32,32,(255,0,0))
+                img.draw_rectangle(64,45,45,45,(255,0,0))
                 chord = "5"
-    data = ustruct.pack("c", chord)
-    uart.write(data)
-
-# this is to draw the boxes to show the different regions
-
-
-# if blob.code() == 5: # r/b code
-#           img.draw_rectangle(blob.rect())
-#           img.draw_cross(blob.cx(), blob.cy())
-#            img.draw_string(blob.x() + 2, blob.y() + 2, "r/b")
-#        if blob.code() == 6: # g/b code
-#            img.draw_rectangle(blob.rect())
-#            img.draw_cross(blob.cx(), blob.cy())
-#            img.draw_string(blob.x() + 2, blob.y() + 2, "g/b")
-#        if blob.code() == 7: # r/g/b code
-#            img.draw_rectangle(blob.rect())
-#            img.draw_cross(blob.cx(), blob.cy())
-#            img.draw_string(blob.x() + 2, blob.y() + 2, "r/g/b")
-#    print(clock.fps())
+    uart.write(chord)
