@@ -6,9 +6,9 @@
 
 #define DELAY_50ms  (400000)      // 8MHz MCLK Cycles for 50ms Delay
 
-#if 0
+
 void UARTSendArray(unsigned char *TxArray, unsigned char ArrayLength);
-#endif
+
 uint16_t runCapTouch(void);
 void InitCapSenseButtons(void);
 
@@ -23,22 +23,23 @@ void main(void)
     P2DIR |= BIT3 + BIT5;
 
     // Configure Clocks
+    DCOCTL = 0;
     BCSCTL1 = CALBC1_12MHZ;         // Set frequency range for 12 MHz Operation
     DCOCTL = CALDCO_12MHZ;          // Set DCO to Calibrated 12 MHz
 
-    #if 0
+    //#if 0
     /* Configure hardware UART */
-    P1SEL = BIT1 + BIT2 ;  // P1.1 = RXD, P1.2=TXD
-    P1SEL2 = BIT1 + BIT2 ; // P1.1 = RXD, P1.2=TXD
+    P1SEL |= BIT1 + BIT2 ;  // P1.1 = RXD, P1.2=TXD
+    P1SEL2 |= BIT1 + BIT2 ; // P1.1 = RXD, P1.2=TXD
     UCA0CTL1 |= UCSSEL_2;  // Use SMCLK
-    UCA0BR1 = 0x04;           // Set baud rate to 9600 with 12MHz clock, High byte
-    UCA0BR0 = 0xE2;         // Set baud rate to 9600 with 12MHz clock (Data Sheet 15.3.13), low byte
+    UCA0BR1 = 0x00;           // Set baud rate to 9600 with 12MHz clock, High byte
+    UCA0BR0 = 0x68;         // Set baud rate to 9600 with 12MHz clock (Data Sheet 15.3.13), low byte
     
     UCA0MCTL = UCBRS0;     // Modulation UCBRSx = 1
     UCA0CTL1 &= ~UCSWRST;  // Initialize USCI state machine
 
     IE2 |= UCA0RXIE;       // Enable USCI_A0 RX interrupt
-    #endif
+    //#endif
 
     InitCapSenseButtons();
 
@@ -61,11 +62,12 @@ void main(void)
     }
 }
 
-#if 0
+//#if 0
 #pragma vector=USCIAB0RX_VECTOR
 __interrupt void USCI0RX_ISR(void)
 {
-    static volatile data = UCA0RXBUF;
+    static volatile int data = 0;
+    data = UCA0RXBUF;
     UARTSendArray("Received command: ", 18);
     UARTSendArray(&data, 1);
     UARTSendArray("\n\r", 2);
@@ -88,7 +90,7 @@ __interrupt void USCI0RX_ISR(void)
              break;
      }
 }
-
+//#endif
 
 void UARTSendArray(unsigned char *TxArray, unsigned char ArrayLength)
 {
@@ -105,7 +107,7 @@ void UARTSendArray(unsigned char *TxArray, unsigned char ArrayLength)
         TxArray++; //Increment the TxString pointer to point to the next character
     }
 }
-#endif
+
 
 /*
  * runCapTouch()
@@ -116,26 +118,36 @@ uint16_t runCapTouch(void)
     if(TI_CAPT_Button(&buttonSensor0))
     {
         result |= (0x1<<0);
+        while(!(IFG2 & UCA0TXIFG));
+        UCA0TXBUF = 'a';
     }
 
     if(TI_CAPT_Button(&buttonSensor1))
     {
         result |= (0x1<<1);
+        while(!(IFG2 & UCA0TXIFG));
+        UCA0TXBUF = 'b';
     }
     
     if(TI_CAPT_Button(&buttonSensor2))
     {
         result |= (0x1<<2);
+        while(!(IFG2 & UCA0TXIFG));
+        UCA0TXBUF = 'c';
     }
 
     if(TI_CAPT_Button(&buttonSensor3))
     {
         result |= (0x1<<3);
+        while(!(IFG2 & UCA0TXIFG));
+        UCA0TXBUF = 'd';
     }
     
     if(TI_CAPT_Button(&buttonSensor4))
     {
         result |= (0x1<<4);
+        while(!(IFG2 & UCA0TXIFG));
+        UCA0TXBUF = 'e';
     }
     return result;
 }
