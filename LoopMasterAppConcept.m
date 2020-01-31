@@ -31,12 +31,25 @@ classdef LoopMasterAppConcept < matlab.apps.AppBase
         CurrentInstrumentLabel  matlab.ui.control.Label
         InstrumentLabel         matlab.ui.control.Label
         PlayingModeSwitch       matlab.ui.control.RockerSwitch
+        Button1                 matlab.ui.control.Button
+        Button2                 matlab.ui.control.Button
     end
 
+    
+    properties (Access = private)
+        a % Arduino
+    end
 
 
     % Callbacks that handle component events
     methods (Access = private)
+
+        % Code that executes after component creation
+        function startupFcn(app)
+            clear a;
+            app.a = arduino('COM6', 'Uno', 'Libraries', 'SPI');
+            deviceObj = device(app.a, 'SPIChipSelectPin', 'D10');
+        end
 
         % Button pushed function: stopButton
         function stopButtonPushed(app, event)
@@ -143,6 +156,16 @@ classdef LoopMasterAppConcept < matlab.apps.AppBase
                 % Implement practice mode
             end
         end
+
+        % Button pushed function: Button1
+        function Button1Pushed(app, event)
+            system(bbb, 'aplay -c 2 -t wav -r 44100 Guitar1.wav')
+        end
+
+        % Button pushed function: Button2
+        function Button2Pushed(app, event)
+            system(bbb, 'aplay -c 2 -t wav -r 44100 Guitar3.wav')
+        end
     end
 
     % Component initialization
@@ -246,7 +269,7 @@ classdef LoopMasterAppConcept < matlab.apps.AppBase
             app.LoopMasterLabel.HorizontalAlignment = 'center';
             app.LoopMasterLabel.FontName = 'TI-Nspire';
             app.LoopMasterLabel.FontSize = 20;
-            app.LoopMasterLabel.Position = [267 435 103 29];
+            app.LoopMasterLabel.Position = [267 435 126 29];
             app.LoopMasterLabel.Text = 'LoopMaster';
 
             % Create CurrentKeyLabel
@@ -317,6 +340,17 @@ classdef LoopMasterAppConcept < matlab.apps.AppBase
             app.PlayingModeSwitch.Position = [201 59 20 45];
             app.PlayingModeSwitch.Value = 'Practice';
 
+            % Create Button1
+            app.Button1 = uibutton(app.UIFigure, 'push');
+            app.Button1.ButtonPushedFcn = createCallbackFcn(app, @Button1Pushed, true);
+            app.Button1.Position = [258 322 100 22];
+
+            % Create Button2
+            app.Button2 = uibutton(app.UIFigure, 'push');
+            app.Button2.ButtonPushedFcn = createCallbackFcn(app, @Button2Pushed, true);
+            app.Button2.Position = [430 322 100 22];
+            app.Button2.Text = 'Button2';
+
             % Show the figure after all components are created
             app.UIFigure.Visible = 'on';
         end
@@ -333,6 +367,9 @@ classdef LoopMasterAppConcept < matlab.apps.AppBase
 
             % Register the app with App Designer
             registerApp(app, app.UIFigure)
+
+            % Execute the startup function
+            runStartupFcn(app, @startupFcn)
 
             if nargout == 0
                 clear app
