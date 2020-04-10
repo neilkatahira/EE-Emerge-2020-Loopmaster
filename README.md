@@ -1,6 +1,6 @@
 # Loop Master
 
-[Loopmaster](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster) is a musical project created by a team of UC Davis EE-Emerge (EEC 105ABC) students. This project tackles the idea of creating your own musical melodies or riffs, regardless of skill level or knowledge. Currently, three custom "instruments" interface together to output notes based on the user's selections.
+[Loopmaster](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project tackles the idea of creating your own musical melodies or riffs, regardless of skill level or knowledge. Currently, three custom "instruments" interface together to output notes based on the user's selections.
 
 ## Table of Contents
 
@@ -67,4 +67,4 @@ You can request any changes by making a [pull request](https://github.com/neilka
 # Acknowledgments
 
 Thanks to Texas Instruments for sponsoring EE-Emerge, along with Sean and Professor Knoesen. We would not have gotten this far without their help and support.
-Huge mention to Alessandro Verdiesen and Luuk van Kuijk with the original idea and inspiration of the [airdrum](https://hackaday.com/2019/11/15/finally-your-air-drumming-has-an-outlet/) and the whole project.
+Huge mention to Alessandro Verdiesen and Luuk van Kuijk with the original idea and inspiration of the [Airdrum](https://hackaday.com/2019/11/15/finally-your-air-drumming-has-an-outlet/) and the whole project.
