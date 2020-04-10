@@ -22,7 +22,7 @@ The Drumpad works akin to a traditional MIDI pad, where each of the twelve butto
 
 # Project Status
 
-TBD
+In progress
 
 # Getting Started
 
