@@ -1,6 +1,6 @@
 # Loop Master
 
-[Loopmaster](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project tackles the idea of creating your own musical melodies or riffs, regardless of skill level or knowledge. Currently, three custom "instruments" interface together to output notes based on the user's selections.
+[Loopmaster](https://neilkatahira.github.io/EE-Emerge-2020-Loopmaster/) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project tackles the idea of creating your own musical melodies or riffs, regardless of skill level or knowledge. Currently, three custom "instruments" interface together to output notes based on the user's selections.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ In progress
 
 # Getting Started
 
-This repository can be downloaded from the link at the top of the page, or cloned by:
+This repository can be downloaded at the top [here](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster), or cloned by:
 ```
 git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 ```
