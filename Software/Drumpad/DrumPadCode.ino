@@ -28,12 +28,12 @@ void loop()
 {
   //val = digitalRead(P1_1);     // read the input pin
   //digitalWrite(ledPin, val);    // sets the LED to the button's value
-    if (digitalRead(P1_6) > flag6)
+    if (digitalRead(P1_6) > flag1_6)
       {
           Serial.write("a");
           flag1_6 = 1;
       }
-    if (digitalRead(P1_6) < flag6)
+    else if (digitalRead(P1_6) < flag1_6)
       {
           Serial.write("x");
           flag1_6 = 0;
