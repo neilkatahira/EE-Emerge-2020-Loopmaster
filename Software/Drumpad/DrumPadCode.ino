@@ -5,7 +5,7 @@ long lastDebounceTime = 0;  // the last time the output pin was toggled
 long debounceDelay = 50;    // the debounce time; increase if the output flickers
 int buttonState;
 int lastButtonState = 0;
-int flag1 = 0, flag2 = 0, flag3 = 0, flag 4 = 0;
+int pressed1_6 = 0, pressed1_4 = 0; //etc
 void setup()
 { 
   Serial.begin(9600);
@@ -29,15 +29,19 @@ void loop()
   //val = digitalRead(P1_1);     // read the input pin
   //digitalWrite(ledPin, val);    // sets the LED to the button's value
     if (digitalRead(P1_6) > flag1_6)
-      {
+      { //checks if the pin is pressed, and hasnt been pressed
           Serial.write("a");
-          flag1_6 = 1;
+          pressed1_6 = 1;
       }
     else if (digitalRead(P1_6) < flag1_6)
-      {
+      {//checks if the pin has been presss, and is no longer pressed
           Serial.write("x");
-          flag1_6 = 0;
+          pressed1_6 = 0;
       }
+// if neither of these conditions are met, nothing happens
+// eg. pin has been pressed & hasnt been released 
+//  or pin has not been pressed
+  
 //    if (digitalRead(P1_4) == 1)
 //      {
 //        Serial.write("b");
