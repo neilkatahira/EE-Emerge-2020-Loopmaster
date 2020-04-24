@@ -33,10 +33,10 @@ git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 
 ## Dependencies
 
-[Code Composer Studio](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html) 
+[Code Composer Studio](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html)  
 CCS is required for the Drumpad and the Footpad. When prompted, select the MSP430 if interfacing with the Drumpad or Footpad. For the Beaglebone + Bela, the [getting started](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela) page will be useful.
 
-[PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)
+[PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)  
 The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela. 
 
 ## Building
