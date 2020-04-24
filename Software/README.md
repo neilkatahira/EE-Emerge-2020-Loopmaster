@@ -1,4 +1,4 @@
-# Software Development
+# Software
 Multiple Programming Languages and Development environments were used to design instrument logic as well as handle audio processing (add more)
 
 ## Pure Data
