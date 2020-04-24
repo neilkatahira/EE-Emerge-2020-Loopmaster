@@ -22,7 +22,7 @@ The Drumpad works akin to a traditional MIDI pad, where each of the twelve butto
 
 # Project Status
 
-In progress
+Final assembly and code refinement.
 
 # Getting Started
 
@@ -33,7 +33,11 @@ git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 
 ## Dependencies
 
-[Code Composer Studio](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html) is required for the Drumpad and the Footpad. When prompted, select the MSP430 if interfacing with the Drumpad or Footpad. For the Beaglebone + Bela, the [getting started](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela) page will be useful.
+[Code Composer Studio](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html)  
+CCS is required for the Drumpad and the Footpad. When prompted, select the MSP430 if interfacing with the Drumpad or Footpad. For the Beaglebone + Bela, the [getting started](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela) page will be useful.
+
+[PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)  
+The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela. 
 
 ## Building
 
@@ -58,9 +62,9 @@ You can request any changes by making a [pull request](https://github.com/neilka
 * [Conrad Rowling](https://github.com/Conrad-Rowling)
 * [Neil Katahira](https://github.com/neilkatahira)
 * [Jocelyn Park](https://github.com/spectivePer)
-* Isabelle Asistin
+* [Isabelle Asistin](https://github.com/ijasistin)
 * [Varsha Senthil](https://github.com/varshaaaaa)
-* Tyler Kelley
+* [Tyler Kelley](https://github.com/tfkelley)
 * [Ryan Ma](https://github.com/RyanMa1)
 * [Devon Liu](https://github.com/dvnliu)
 
