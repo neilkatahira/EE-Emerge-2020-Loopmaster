@@ -34,7 +34,7 @@ git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 ## Dependencies
 
 #### Software
-[Energia](https://energia.nu/)
+[Energia](https://energia.nu/)  
 Energia is required for the Drumpad and Footpad to compile and run the .ino files.
 
 [PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)  
