@@ -33,11 +33,17 @@ git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 
 ## Dependencies
 
+#### Software
 [Code Composer Studio](https://software-dl.ti.com/ccs/esd/documents/ccs_downloads.html)  
 CCS is required for the Drumpad and the Footpad. When prompted, select the MSP430 if interfacing with the Drumpad or Footpad.
 
 [PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)  
-The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela. 
+The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela.
+
+#### Hardware & Model Creation
+[Altium](https://www.altium.com/) was used for PCB creation.  
+[Fusion 360](https://www.autodesk.com/products/fusion-360/overview) was used for the creation of enclosures and other mechanical files.  
+[Cura](https://ultimaker.com/software/ultimaker-cura) was used as our main slicer for 3D printing. The UC Davis ESDC's Ultimaker's and personal Ender 3 Pro's were used for fabrication here.  
 
 ## Building
 
