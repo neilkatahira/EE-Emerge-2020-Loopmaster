@@ -16,15 +16,15 @@ Once we proved functionality, we designed our own circuitboards to improve the c
 ## Table of Contents
 1. [Board Selection](#board-selection)
     1.[BeagleBoneBlack/BelaCape](#beagleboneblack/belaCape)
-    2.[OpenMV H7](#openMv-h7)
-    3.[MSP430](#msp430)
-    4.[Xbee Module](#xbee-module)
-    5.[Miscellaneous](#miscellaneous)
+    1.[OpenMV H7](#openMv-h7)
+    1.[MSP430](#msp430)
+    1.[Xbee Module](#xbee-module)
+    1.[Miscellaneous](#miscellaneous)
 2. [Custom Boards](#custom-boards)
     1.[Beagle Cape Cape](#beagle-cape-cape)
-    2.[Drumpad/Keypad](#building)
-    3.[CameraPCB](#usage)
-    4.[Button Wiring Harness](#button-wiring-harness)
+    1.[Drumpad/Keypad](#building)
+    1.[CameraPCB](#usage)
+    1.[Button Wiring Harness](#button-wiring-harness)
     
 
 To design our different instruments we started with pre-fabricated [boards](http://www.ti.com/tool/MSP-EXP430G2) provided by [Texas Instruments](http://www.ti.com/) which vastly accelerated the software developement phase. 
