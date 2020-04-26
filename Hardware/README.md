@@ -14,6 +14,7 @@ Our system was fairly robust, and we needed quite a few board to complete it. Th
 Once we proved functionality, we designed our own circuitboards to improve the connections as well as size parameters of the pre-fabricated boards.
 
 ## Table of Contents
+
 1. [Board Selection](#board-selection)
     1.[BeagleBoneBlack/BelaCape](#beagleboneblack/belaCape)
     1.[OpenMV H7](#openMv-h7)
