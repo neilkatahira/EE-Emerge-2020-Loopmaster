@@ -4,11 +4,17 @@ Our system was fairly robust, and we needed quite a few board to complete it. Th
 
 
 [BeagleBoneBlack](https://beagleboard.org/black)
+
 [Bela Cape](https://beagleboard.org/p/112305/bela-low-latency-audio-sensor-cape-for-pocketbeagle-1615e0)
+
 [MSP430G2 LaunchPad](http://www.ti.com/tool/MSP-EXP430G2)
+
 [OpenMV H7](https://openmv.io/products/openmv-cam-h7)
+
 ?Capsense Buttons?
+
 ?Power Supply?
+
 ?Batteries?
 ?Voltage Regulator?
 
