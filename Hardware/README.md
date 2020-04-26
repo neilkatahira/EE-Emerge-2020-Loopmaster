@@ -2,15 +2,14 @@
 
 Our system was fairly robust, and we needed quite a few board to complete it. The backbone of our hardware was based on the following boards:
 
-
-   [BeagleBoneBlack](https://beagleboard.org/black)  
-   [Bela Cape](https://beagleboard.org/p/112305/bela-low-latency-audio-sensor-cape-for-pocketbeagle-1615e0)  
-   [MSP430G2 LaunchPad](http://www.ti.com/tool/MSP-EXP430G2)  
-   [OpenMV H7](https://openmv.io/products/openmv-cam-h7)  
-   ?Capsense Buttons?  
-   ?Power Supply?  
-   ?Batteries?  
-   ?Voltage Regulator?  
+[BeagleBoneBlack](https://beagleboard.org/black)  
+[Bela Cape](https://beagleboard.org/p/112305/bela-low-latency-audio-sensor-cape-for-pocketbeagle-1615e0)  
+[MSP430G2 LaunchPad](http://www.ti.com/tool/MSP-EXP430G2)  
+[OpenMV H7](https://openmv.io/products/openmv-cam-h7)  
+?Capsense Buttons?  
+?Power Supply?  
+?Batteries?  
+?Voltage Regulator?  
 
 Once we proved functionality, we designed our own circuitboards to improve the connections as well as size parameters of the pre-fabricated boards.
 
@@ -18,16 +17,16 @@ Once we proved functionality, we designed our own circuitboards to improve the c
 
 
 1. [Board Selection](#board-selection)  
-    1.[BeagleBoneBlack/BelaCape](#beagleboneblack/belaCape)  
-    1.[OpenMV H7](#openMv-h7)  
-    1.[MSP430](#msp430)  
-    1.[Xbee Module](#xbee-module)  
-    1.[Miscellaneous](#miscellaneous)  
+   - [BeagleBoneBlack/BelaCape](#beagleboneblack/belaCape)  
+   - [OpenMV H7](#openMv-h7)  
+   - [MSP430](#msp430)  
+   - [Xbee Module](#xbee-module)  
+   - [Miscellaneous](#miscellaneous)  
 2. [Custom Boards](#custom-boards)  
-    1.[Beagle Cape Cape](#beagle-cape-cape)  
-    1.[Drumpad/Keypad](#building)  
-    1.[CameraPCB](#usage)  
-    1.[Button Wiring Harness](#button-wiring-harness)  
+   - [Beagle Cape Cape](#beagle-cape-cape)  
+   - [Drumpad/Keypad](#building)  
+   - [CameraPCB](#usage)  
+   - [Button Wiring Harness](#button-wiring-harness)  
     
 ## Board Selection
 
