@@ -41,7 +41,7 @@ We developed one board that would function for both the Drumpad as well as the f
 
 ## BeagleBone Black Cape
 We designed a board that would connect to the breakout pins of the BeagleBoneBlack. It replaced the GPIO pinnouts with screw terminal connections for the required Serial ports and 3.3V rail. It also laid a footprint for a permanent addition of an Xbee module.
-
+ 
 ## Drumpad LED Board
 We designed a board that simplified the wiring harness for 12 capacitive sense buttons. Each button required an op-amp to forward the button data as well as provide power to LEDs. We developed a board that made this complex wiring array compact and easy to trouble shoot. This allowed us to reduce the overall size requirements of the Drumpad Enclosure as well as reducing EM noise within the enclosure.
 
