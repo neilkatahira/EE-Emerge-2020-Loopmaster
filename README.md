@@ -41,7 +41,7 @@ Energia is required for the Drumpad and Footpad to compile and run the .ino file
 [PureData](https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela)  
 The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela.
 
-[OpenMV IDE](https://openmv.io/pages/download)
+[OpenMV IDE](https://openmv.io/pages/download)  
 The OpenMV IDE is used for all of the programming of the H7 Camera.
 
 #### Hardware & Model Creation
