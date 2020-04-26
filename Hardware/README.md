@@ -2,6 +2,7 @@
 
 Our system was fairly robust, and we needed quite a few board to complete it. The backbone of our hardware was based on the following boards:
 
+
 [BeagleBoneBlack](https://beagleboard.org/black)
 [Bela Cape](https://beagleboard.org/p/112305/bela-low-latency-audio-sensor-cape-for-pocketbeagle-1615e0)
 [MSP430G2 LaunchPad](http://www.ti.com/tool/MSP-EXP430G2)
@@ -15,6 +16,7 @@ Once we proved functionality, we designed our own circuitboards to improve the c
 
 ## Table of Contents
 
+
 1. [Board Selection](#board-selection)
     1.[BeagleBoneBlack/BelaCape](#beagleboneblack/belaCape)
     1.[OpenMV H7](#openMv-h7)
@@ -27,6 +29,11 @@ Once we proved functionality, we designed our own circuitboards to improve the c
     1.[CameraPCB](#usage)
     1.[Button Wiring Harness](#button-wiring-harness)
     
+## Board Selection
+
+### BeagleBoneBlack/BelaCape
+
+
 
 To design our different instruments we started with pre-fabricated [boards](http://www.ti.com/tool/MSP-EXP430G2) provided by [Texas Instruments](http://www.ti.com/) which vastly accelerated the software developement phase. 
 
