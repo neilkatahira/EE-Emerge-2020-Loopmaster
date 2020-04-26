@@ -8,14 +8,10 @@ Our system was fairly robust, and we needed quite a few board to complete it. Th
 [MSP430G2 LaunchPad](http://www.ti.com/tool/MSP-EXP430G2)
 
 [OpenMV H7](https://openmv.io/products/openmv-cam-h7)
-
-?Capsense Buttons?
-
-?Power Supply?
-
-?Batteries?
-
-?Voltage Regulator?
+ ?Capsense Buttons?
+ ?Power Supply?
+ ?Batteries?
+ ?Voltage Regulator?
 
 Once we proved functionality, we designed our own circuitboards to improve the connections as well as size parameters of the pre-fabricated boards.
 
