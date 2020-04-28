@@ -45,7 +45,7 @@ The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela.
 The OpenMV IDE is used for all of the programming of the H7 Camera.
 
 #### Hardware & Model Creation
-[Altium](https://www.altium.com/) was used for most PCB creation. 
+[Altium](https://www.altium.com/) was used for most PCB creation.  
 [Eagle](https://www.autodesk.com/products/eagle/overview) was used to make the CameraPCB.  
 [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) was used for the creation of enclosures and other mechanical files.  
 [Cura](https://ultimaker.com/software/ultimaker-cura) was used as our main slicer for 3D printing. The UC Davis ESDC's Ultimaker's and personal Ender 3 Pro's were used for fabrication here.  
