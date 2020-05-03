@@ -5,7 +5,7 @@ long lastDebounceTime = 0;  // the last time the output pin was toggled
 long debounceDelay = 50;    // the debounce time; increase if the output flickers
 int buttonState;
 int lastButtonState = 0;
-int pressed1_6 = 0, pressed1_4 = 0; //etc
+int flag1_6 = 0, flag1_4 = 0; //etc
 void setup()
 { 
   Serial.begin(9600);
