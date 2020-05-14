@@ -1,2 +1,5 @@
 # Drumpad/Keypad Code
 The code for the drumpad/keypad was developed in the energia IDE and is fairly straightforward: It polls the GPIO pins for a change of state, either being pressed or released. The code reads the status of each pin and compares it to a flag that describes the state it was previously in. When pressed a PRESS flag is set, and is not removed until the digital value of the pin falls below the boolean value of the flag. Then the process is repeated. Each pin sends a unique 8 bit char to through UART to the bela telling it which key was pressed/released.
+
+# Keypad Code
+The Keyboard code is written in C and programmed on the MSP430. Each of the keys is connected to a different pin on the MSP430. When a key is pressed, the two boards with copper tape make contact with each other, and the corresponding pin on the MSP is read, and an output is sent through UART as a single character. We programmed each key to output a different character to identify which key was being pressed. This is looped continuously and the Bela reads the characters sent to output the corresponding sounds.
