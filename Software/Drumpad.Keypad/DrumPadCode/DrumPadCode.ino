@@ -12,7 +12,7 @@ flag2_6 = 0,
 flag2_7 = 0;
 void setup()
 { 
-  Serial.begin(9600);
+  Serial.begin(115200);
   pinMode(P1_6, INPUT);
   pinMode(P1_4, INPUT);
   pinMode(P1_5, INPUT);
