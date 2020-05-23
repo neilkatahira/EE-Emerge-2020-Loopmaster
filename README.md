@@ -1,6 +1,6 @@
 # Loop Master
 
-[Loopmaster](https://neilkatahira.github.io/EE-Emerge-2020-Loopmaster/) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows you to create your own musical melodies or riffs, regardless of skill level or knowledge. Currently, three custom "instruments" interface together to output notes based on the user's selections.
+[Loopmaster](https://neilkatahira.github.io/EE-Emerge-2020-Loopmaster/) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows you to create your own musical melodies or riffs, regardless of skill level or knowledge. Three custom "instruments" interface together to output notes based on the user's selections.
 
 ## Table of Contents
 
@@ -18,8 +18,8 @@
 
 # About the Project
 
-Three instruments (Drumpad, Camera Vision, and Footpad) work with selections specified in a MATLAB GUI. In tandem, a BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
-The Drumpad works akin to a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments. The Camera vision, on the other hand, maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.
+Three instruments (Drumpad, Camera Vision, and Footpad) work with selections specified in a MATLAB GUI. A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
+The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments. The Camera vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.
 
 # Project Status
 
@@ -27,7 +27,7 @@ Final assembly and code refinement.
 
 # Getting Started
 
-This repository can be downloaded at the top [here](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster), or cloned by:
+This repository can be downloaded [here](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/archive/master.zip), or cloned by:
 ```
 git clone https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster
 ```
@@ -48,13 +48,13 @@ The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela.
 [Altium](https://www.altium.com/) was used for most PCB creation.  
 [Eagle](https://www.autodesk.com/products/eagle/overview) was used to make the CameraPCB.  
 [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) was used for the creation of enclosures and other mechanical files.  
-[Cura](https://ultimaker.com/software/ultimaker-cura) was used as our main slicer for 3D printing. The UC Davis ESDC's Ultimaker's and personal Ender 3 Pro's were used for fabrication here.  
+[Cura](https://ultimaker.com/software/ultimaker-cura) was used as our main slicer for 3D printing. The UC Davis ESDC's Ultimaker's and personal Ender 3 Pro's were used for fabrication.  
 
 ## Building
 
-PCB and enclosure files will be located in their respective subdirectories. These were fabricated either with a 3D printer, a laser cutter, or table saw
+PCB and enclosure files will be located in their respective subdirectories. These were fabricated either with a 3D printer, a laser cutter, or table saw.
 
-Software for the instruments will just have to be compiled and loaded into their respective MCU's either in the Puredata IDE or in Energia.
+Software for the instruments will have to be compiled and loaded into their respective MCU's either in the Puredata IDE or Energia.
 
 ## Usage
 
