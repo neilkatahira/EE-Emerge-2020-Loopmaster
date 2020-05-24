@@ -12,13 +12,13 @@ Team Leader** </br>
 
 **Neil Katahira** </br>
 B.S. Computer Engineering June 2021 </br>
-Aspiring SoC Design Engineer/related
+Aspiring SoC Design Engineer/related </br>
 [LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/neilkatahira)
 
 
 **Jocelyn Park** </br>
 B.S. Electrical & Computer Engineering December 2021 </br>
-Aspiring DSP Engineer
+Aspiring DSP Engineer </br>
 [LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer) 
 
 
@@ -28,7 +28,7 @@ Aspiring DSP Engineer
 
 **Varsha Senthil** </br> 
 B.S. Computer Engineering June 2022  </br>
-Aspiring Hardware Engineer
+Aspiring Hardware Engineer </br>
 [LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/varshaaaaa)
 
 
