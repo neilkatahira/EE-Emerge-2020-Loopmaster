@@ -1,41 +1,38 @@
 # Team
 
-[Benjamin Moore](https://github.com/mooreben34)  
-Team Leader
+**[Benjamin Moore](https://github.com/mooreben34)  
+Team Leader**
 
 
-[Conrad Rowling](https://github.com/Conrad-Rowling)  
-Team Leader
+**[Conrad Rowling](https://github.com/Conrad-Rowling)  
+Team Leader**
 
 
-[Neil Katahira](https://github.com/neilkatahira)  
-B.S. Computer Engineering June 2021
-
+**[Neil Katahira](https://github.com/neilkatahira)**
+B.S. Computer Engineering June 2021 </br>
 Aspiring SoC Design Engineer/related
 
 
-[Jocelyn Park](https://github.com/spectivePer)  
-B.S. Electrical & Computer Engineering December 2021
-
+**[Jocelyn Park](https://github.com/spectivePer)**
+B.S. Electrical & Computer Engineering December 2021 </br>
 Aspiring DSP Engineer
 
 
-[Isabelle Asistin](https://github.com/ijasistin)  
+**[Isabelle Asistin](https://github.com/ijasistin)**
 
 
-[Varsha Senthil](https://github.com/varshaaaaa)  
-B.S. Computer Engineering June 2022
-
+**[Varsha Senthil](https://github.com/varshaaaaa)** 
+B.S. Computer Engineering June 2022  </br>
 Aspiring Hardware Engineer
 
 
-[Tyler Kelley](https://github.com/tfkelley)  
+**[Tyler Kelley](https://github.com/tfkelley)**
 
 
-[Devon Liu](https://github.com/dvnliu)  
+**[Devon Liu](https://github.com/dvnliu)**  
 
 
-[Sean Alling](https://www.ece.ucdavis.edu/blog/alling-sean/)  
+**[Sean Alling](https://www.ece.ucdavis.edu/blog/alling-sean/)**
 
 
-[Professor Andre Knoesen](https://faculty.engineering.ucdavis.edu/knoesen/)  
+**[Professor Andre Knoesen](https://faculty.engineering.ucdavis.edu/knoesen/)**
