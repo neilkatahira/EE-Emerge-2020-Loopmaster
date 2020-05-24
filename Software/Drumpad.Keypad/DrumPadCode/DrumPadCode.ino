@@ -25,7 +25,7 @@ pin1_4state = 0;
 
 void setup()
 { 
-  Serial.begin(115200);
+  Serial.begin(9600);
   pinMode(P1_6, INPUT);
   pinMode(P1_4, INPUT);
 //  pinMode(P1_5, INPUT);
@@ -179,7 +179,7 @@ void loop()
 //          Serial.write("|");
 //          flag2_7 = 0;
 //      }
-      delay (1);    
+      delay (50);    
 }
 
 void released1_6 ()
