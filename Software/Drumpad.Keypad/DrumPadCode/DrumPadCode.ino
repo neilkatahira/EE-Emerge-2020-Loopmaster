@@ -1,6 +1,4 @@
-
-int flag1_6 = 0,
-flag1_4 = 0;
+int pressed = 0;
 //flag1_5 = 0,
 //flag1_7 = 0,
 //flag2_0 = 0,
@@ -10,9 +8,9 @@ flag1_4 = 0;
 //flag2_5 = 0,
 //flag2_6 = 0,
 //flag2_7 = 0;
-
-int pin1_6state = 0,
-pin1_4state = 0;
+//
+//int pin1_6state = 0,
+//pin1_4state = 0,
 //pin1_5state = 0,
 //pin1_7state = 0,
 //pin2_0state = 0,
@@ -26,8 +24,8 @@ pin1_4state = 0;
 void setup()
 { 
   Serial.begin(9600);
-  pinMode(P1_6, INPUT);
-  pinMode(P1_4, INPUT);
+//  pinMode(P1_6, INPUT);
+//  pinMode(P1_4, INPUT);
 //  pinMode(P1_5, INPUT);
 //  pinMode(P1_7, INPUT);
 //  pinMode(P2_0, INPUT);
@@ -38,6 +36,8 @@ void setup()
 //  pinMode(P2_5, INPUT);
 //  pinMode(P2_6, INPUT);
 //  pinMode(P2_7, INPUT);
+  attachInterrupt(digitalPinToInterrupt(P1_6),pressed1_6,RISING);
+  attachInterrupt(digitalPinToInterrupt(P1_4),pressed1_4,RISING); 
   attachInterrupt(digitalPinToInterrupt(P1_6),released1_6,FALLING);
   attachInterrupt(digitalPinToInterrupt(P1_4),released1_4,FALLING);  
 }
@@ -45,6 +45,7 @@ void loop()
 {
     pin1_6state = digitalRead(P1_6);
     pin1_4state = digitalRead(P1_4);
+    
 //    pin1_5state = digitalRead(P1_5);
 //    pin1_7state = digitalRead(P1_7);
 //    pin2_0state = digitalRead(P2_0);
@@ -61,24 +62,23 @@ void loop()
           Serial.write("A");
           flag1_6 = 1;
       }
-//    if (pin1_6state < flag1_6)
-//      {
-//          Serial.write("|");
-//          flag1_6 = 0;
-//      }
-//    
+    else if (pin1_6state =< flag1_6)
+      {
+          Serial.write("|");
+          flag1_6 = 0;
+      }
+    
     if (pin1_4state > flag1_4)
       {
           Serial.write("B");
           flag1_4 = 1;
       }
-//    if (pin1_4state < flag1_4)
-//      {
-//          Serial.write("|");
-//          flag1_4 = 0;
-//      }
-
-//      
+    else if(pin1_4state =< flag1_4)
+      {
+          Serial.write("|");
+          flag1_4 = 0;
+      }
+      
 //    if (pin1_5state > flag1_5)
 //      {
 //          Serial.write("C");
@@ -179,16 +179,24 @@ void loop()
 //          Serial.write("|");
 //          flag2_7 = 0;
 //      }
-      delay (50);    
+      delay (10);    
 }
-
-void released1_6 ()
-{
-  flag1_6 = 0;
-  Serial.write("|");
-}
-void released1_4 ()
-{
-  flag1_4 = 0;
-  Serial.write("|");
-}
+//void pressed1_6()
+//{
+//  Serial.write("A");
+//  pressed = 1;
+//}
+//void pressed1_4()
+//{
+//  Serial.write("B");
+//}
+//
+//void released1_6 ()
+//{
+//  Serial.write("|");
+//}
+//void released1_4 ()
+//{
+//  Serial.write("|");
+//}
+//
