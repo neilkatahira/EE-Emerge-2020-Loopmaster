@@ -1,7 +1,8 @@
 # Team
 
-**[Benjamin Moore](https://github.com/mooreben34)  
+**Benjamin Moore
 Team Leader** </br>
+[GitHub](https://github.com/mooreben34)|[LinkedIn](https://linkedIn.com)
 
 
 **[Conrad Rowling](https://github.com/Conrad-Rowling)  
