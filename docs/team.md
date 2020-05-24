@@ -1,13 +1,14 @@
 # Team
-
-**Benjamin Moore <br/>
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|**Benjamin Moore <br/>
 Team Leader** <br/>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/mooreben34)
+[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/mooreben34)|
 
 
-**Conrad Rowling <br/>
+|**Conrad Rowling <br/>
 Team Leader** <br/>
-[GitHub](https://github.com/Conrad-Rowling)  
+[GitHub](https://github.com/Conrad-Rowling)|
 
 
 **Neil Katahira** <br/>
@@ -45,5 +46,5 @@ Professor** <br/>
 
 **Sean Alling <br/>
 Teaching Assistant** <br/>
-Ph.D Student in Electronic Engineering
+Ph.D Student in Electronic Engineering <br/>
 [Website](https://www.ece.ucdavis.edu/blog/alling-sean/)
