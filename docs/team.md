@@ -7,13 +7,13 @@ Team Leader** </br>
 
 **Conrad Rowling </br>
 Team Leader** </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/Conrad-Rowling)  
+[GitHub](https://github.com/Conrad-Rowling)  
 
 
 **Neil Katahira** </br>
 B.S. Computer Engineering June 2021 </br>
 Aspiring SoC Design Engineer/related </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/neilkatahira)
+[GitHub](https://github.com/neilkatahira)
 
 
 **Jocelyn Park** </br>
@@ -23,21 +23,21 @@ Aspiring DSP Engineer </br>
 
 
 **Isabelle Asistin** </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/ijasistin) 
+[GitHub](https://github.com/ijasistin) 
 
 
 **Varsha Senthil** </br> 
 B.S. Computer Engineering June 2022  </br>
 Aspiring Hardware Engineer </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/varshaaaaa)
+[GitHub](https://github.com/varshaaaaa)
 
 
 **Tyler Kelley** </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/tfkelley)
+[GitHub](https://github.com/tfkelley)
 
 
 **Devon Liu**   </br>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/dvnliu)
+[GitHub](https://github.com/dvnliu)
 
 
 **[Sean Alling] </br>
