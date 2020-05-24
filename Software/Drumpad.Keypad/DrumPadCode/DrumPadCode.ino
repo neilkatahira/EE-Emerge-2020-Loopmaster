@@ -177,6 +177,6 @@ void loop()
           Serial.write("|");
           flag2_7 = 0;
       }
-      delay 1;
+      delay (1);
     
 }
