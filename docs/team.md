@@ -11,39 +11,39 @@ Team Leader** <br/>
 
 
 **Neil Katahira** <br/>
-B.S. Computer Engineering June 2021 </br>
-Aspiring SoC Design Engineer/related </br>
+B.S. Computer Engineering June 2021 <br/>
+Aspiring SoC Design Engineer/related <br/>
 [GitHub](https://github.com/neilkatahira)
 
 
-**Jocelyn Park** </br>
-B.S. Electrical & Computer Engineering December 2021 </br>
-Aspiring DSP Engineer </br>
+**Jocelyn Park** <br/>
+B.S. Electrical & Computer Engineering December 2021 <br/>
+Aspiring DSP Engineer <br/>
 [LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer) 
 
 
-**Isabelle Asistin** </br>
+**Isabelle Asistin** <br/>
 [GitHub](https://github.com/ijasistin) 
 
 
-**Varsha Senthil** </br> 
-B.S. Computer Engineering June 2022  </br>
-Aspiring Hardware Engineer </br>
+**Varsha Senthil** <br/>
+B.S. Computer Engineering June 2022  <br/>
+Aspiring Hardware Engineer <br/>
 [GitHub](https://github.com/varshaaaaa)
 
 
-**Tyler Kelley** </br>
+**Tyler Kelley** <br/>
 [GitHub](https://github.com/tfkelley)
 
 
-**Devon Liu**   </br>
+**Devon Liu**   <br/>
 [GitHub](https://github.com/dvnliu)
 
 
-**Sean Alling </br>
-Teaching Assistant** </br>
+**Sean Alling <br/>
+Teaching Assistant** <br/>
 [Website](https://www.ece.ucdavis.edu/blog/alling-sean/)
 
-**Dr. Andre Knoesen </br>
-Professor** </br>
+**Dr. Andre Knoesen <br/>
+Professor** <br/>
 [Website](https://faculty.engineering.ucdavis.edu/knoesen/) 
