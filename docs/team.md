@@ -1,15 +1,16 @@
 # Team
 
-**Benjamin Moore </br> Team Leader** </br>
+**Benjamin Moore <br/>
+Team Leader** <br/>
 [LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/mooreben34)
 
 
-**Conrad Rowling </br>
-Team Leader** </br>
+**Conrad Rowling <br/>
+Team Leader** <br/>
 [GitHub](https://github.com/Conrad-Rowling)  
 
 
-**Neil Katahira** </br>
+**Neil Katahira** <br/>
 B.S. Computer Engineering June 2021 </br>
 Aspiring SoC Design Engineer/related </br>
 [GitHub](https://github.com/neilkatahira)
