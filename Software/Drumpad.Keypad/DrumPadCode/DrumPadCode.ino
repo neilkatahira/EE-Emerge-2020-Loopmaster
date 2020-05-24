@@ -184,11 +184,11 @@ void loop()
 
 void released1_6 ()
 {
-  flag1_6 = "0";
+  flag1_6 = 0;
   Serial.write("|");
 }
 void released1_4 ()
 {
-  flag1_4 = "0";
+  flag1_4 = 0;
   Serial.write("|");
 }
