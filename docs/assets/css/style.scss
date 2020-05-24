@@ -1,5 +1,9 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
-<meta name="theme-color" content="#F2950E">
+@import "jekyll-theme-cayman";
+
+// Headers
+$header-heading-color: #fff !default;
+$header-bg-color: #F2950E !default;
+$header-bg-color-secondary: #1192CE !default;
