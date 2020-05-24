@@ -1,7 +1,6 @@
 # Team
 
-**Benjamin Moore </br>
-Team Leader** </br>
+**Benjamin Moore </br> Team Leader** </br>
 [LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/mooreben34)
 
 
