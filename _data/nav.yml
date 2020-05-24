@@ -1,12 +1,28 @@
-- title: "Home"
-  href: "/"
-
-- title: "News"
-  href: "/news/"
-
-- title: "Snippets"
-  subcategories:
-    - subtitle: "Example1"
-      subhref: "#"
-    - subtitle: "Example2"
-      subhref: "#"
+- title: Home
+  url: /home.html
+  
+- title: Team
+  url: /team.html
+  
+- title: Components
+  url: /components.html
+  sublinks:
+    - title: DrumPad
+      url:
+    - title: CameraVision
+      url:
+    - title: FootPad
+      url:
+    - title: Bela + Software
+      url:
+  
+- title: Other Links
+  url: /store.html
+  sublinks:
+    - title: View on GitHub
+      url:
+    - title: View on Hackster.io
+      url:
+    - title: Download .zip
+      url:
+ 
