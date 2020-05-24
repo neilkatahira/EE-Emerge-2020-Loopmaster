@@ -40,10 +40,10 @@ Aspiring Hardware Engineer </br>
 [GitHub](https://github.com/dvnliu)
 
 
-**[Sean Alling] </br>
+**Sean Alling </br>
 Teaching Assistant** </br>
 [Website](https://www.ece.ucdavis.edu/blog/alling-sean/)
 
-**[Dr. Andre Knoesen] </br>
+**Dr. Andre Knoesen </br>
 Professor** </br>
 [Website](https://faculty.engineering.ucdavis.edu/knoesen/) 
