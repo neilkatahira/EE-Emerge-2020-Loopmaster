@@ -3,23 +3,23 @@
 
 INSERT VIDEO
 
-Three instruments (Drumpad, Camera Vision, and Footpad) work with selections specified in a MATLAB GUI.
+Three instruments (DrumPad, CameraVision, and FootPad) work with selections specified in a MATLAB GUI communicating with a BeagleBone Black and Bela Cape: 
 
-A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
-
- INSERT PIC
- 
- 
-The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments.
+1. A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
 
  INSERT PIC
  
  
-The Camera vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. /n
+2. The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments.
+
+ INSERT PIC
+ 
+ 
+3. The Camera vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. /n
 
 INSERT PIC
  
  
-The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad./n
+4. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad./n
  
  INSERT PIC
