@@ -19,7 +19,7 @@ Aspiring SoC Design Engineer/related
 **Jocelyn Park** </br>
 B.S. Electrical & Computer Engineering December 2021 </br>
 Aspiring DSP Engineer
-[LinkedIn](https://linkedIn.com/jocelyn-park) | [GitHub](https://github.com/spectivePer) 
+[LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer) 
 
 
 **Isabelle Asistin** </br>
