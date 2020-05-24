@@ -1,9 +1,9 @@
 # Team
-| | | |
-|:-------------------------:|:-------------------------:|:-------------------------:|
-|**Benjamin Moore <br/>
-Team Leader** <br/>
-[LinkedIn](https://linkedIn.com) | [GitHub](https://github.com/mooreben34)|
+| | |
+|:-------------------------:|:-------------------------:|
+|**Benjamin Moore** <br/>
+**Team Leader** <br/>
+[LinkedIn](https://linkedIn.com) [GitHub](https://github.com/mooreben34)|
 
 
 |**Conrad Rowling <br/>
