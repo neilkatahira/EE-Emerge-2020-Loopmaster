@@ -51,7 +51,7 @@ The Bela IDE is used for the majority of the workflow for the Beaglebone + Bela.
 
 ## Building
 
-PCB and enclosure files will be located in their respective subdirectories. These were fabricated either with a 3D printer, a laser cutter, or table saw.
+PCB and enclosure files will be located in the GitHub repository in their respective folders. These were fabricated either with a 3D printer, a laser cutter, or table saw.
 
 Software for the instruments will have to be compiled and loaded into their respective MCU's either in the Puredata IDE or Energia.
 
