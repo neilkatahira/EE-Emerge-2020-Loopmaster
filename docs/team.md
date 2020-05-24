@@ -7,22 +7,17 @@ Team Leader
 Team Leader
 
 [Neil Katahira](https://github.com/neilkatahira)  
-Computer Engineering Major
-
-June 2021
-
+B.S. Computer Engineering June 2021
 Aspiring SoC Design Engineer/related
 
 [Jocelyn Park](https://github.com/spectivePer)  
-Electrical & Computer Engineering Majors
-December 2021
+B.S. Electrical & Computer Engineering December 2021
 Aspiring DSP Engineer
 
 [Isabelle Asistin](https://github.com/ijasistin)  
 
 [Varsha Senthil](https://github.com/varshaaaaa)  
-Electrical Engineering Major
-June 2022
+B.S. Computer Engineering June 2022
 Aspiring Hardware Engineer
 
 [Tyler Kelley](https://github.com/tfkelley)  
