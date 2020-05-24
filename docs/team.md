@@ -8,7 +8,9 @@ Team Leader
 
 [Neil Katahira](https://github.com/neilkatahira)  
 Computer Engineering Major
+
 June 2021
+
 Aspiring SoC Design Engineer/related
 
 [Jocelyn Park](https://github.com/spectivePer)  
