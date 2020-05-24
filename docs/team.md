@@ -2,7 +2,7 @@
 
 **Benjamin Moore
 Team Leader** </br>
-[GitHub](https://github.com/mooreben34)|[LinkedIn](https://linkedIn.com)
+[GitHub](https://github.com/mooreben34) | [LinkedIn](https://linkedIn.com)
 
 
 **[Conrad Rowling](https://github.com/Conrad-Rowling)  
