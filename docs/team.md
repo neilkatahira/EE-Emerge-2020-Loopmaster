@@ -45,4 +45,5 @@ Professor** <br/>
 
 **Sean Alling <br/>
 Teaching Assistant** <br/>
+Ph.D Student in Electronic Engineering
 [Website](https://www.ece.ucdavis.edu/blog/alling-sean/)
