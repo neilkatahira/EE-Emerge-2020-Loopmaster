@@ -10,4 +10,4 @@
 [Ryan Ma](https://github.com/RyanMa1)  
 [Devon Liu](https://github.com/dvnliu)  
 Sean Alling  
-Professor Knoesen  
+Professor Andre Knoesen  
