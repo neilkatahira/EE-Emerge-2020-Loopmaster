@@ -1,8 +1,4 @@
-# Loop Master
-
 [Loopmaster](https://neilkatahira.github.io/EE-Emerge-2020-Loopmaster/) is a musical project created by a team of UC Davis [EE-Emerge](https://www.ece.ucdavis.edu/ieee/home/ee-emerge/) (EEC 105ABC) students. This project allows you to create your own musical melodies or riffs, regardless of skill level or knowledge. Three custom "instruments" interface together to output notes based on the user's selections.
-
-# About the Project
 
 Three instruments (Drumpad, Camera Vision, and Footpad) work with selections specified in a MATLAB GUI. A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
 The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments. The Camera vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.
