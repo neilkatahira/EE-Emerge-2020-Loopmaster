@@ -1,8 +1,8 @@
 # Team
 **Benjamin Moore <br/>
 Team Leader** <br/>
-B.S. Electrical Engineering June 2021
-Aspiring Audio DSP Engineer
+B.S. Electrical Engineering June 2021 <br/>
+Aspiring Audio DSP Engineer <br/>
 [LinkedIn](https://linkedIn.com/in/brmoore21) | [GitHub](https://github.com/mooreben34)
 
 
