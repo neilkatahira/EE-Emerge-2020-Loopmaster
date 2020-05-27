@@ -4,8 +4,7 @@ The Drum Pad is a MIDI Pad-like instrument that houses twelve capacitive touch s
 ## Hardware  
 Hardware that is used in the Drum Pad include two custom PCB's: one that implements a comparator circuit with LM741 OP-Amps to facilitate sensor presses, and one that houses a MSP430 and an XBee module for wireless serial communication to the BeagleBone + Bela. The latter PCB is also used with the FootPad instrument.  
 
-<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad_led.png?raw=true" width="448" height="332">  
-<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumkeypcb.png?raw=true" width="280" height="352">  
+<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad_led.png?raw=true" width="448"><img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumkeypcb.png?raw=true" width="280">  
 
 ## Mechanical  
 The entire enclosure is 3D printed using an Ender 3 Pro using PLA with 0.2mm layer height. To improve printing time, a larger layer height with a larger nozzle will help.
