@@ -1,3 +1,4 @@
+# Components  
 Three in-house built instruments (DrumPad, Camera, and FootPad) work with selections specified in a MATLAB GUI communicating with a BeagleBone Black and Bela Capa.  The BeagleBone Black and Bela Cape is utilized to process user inputs and output different notes or chords.
 
 ## DrumPad
