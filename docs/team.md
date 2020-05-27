@@ -13,18 +13,18 @@ Team Leader** <br/>
 
 **Neil Katahira** <br/>
 B.S. Computer Engineering June 2021 <br/>
-Aspiring SoC Design Engineer/related <br/>
+Aspiring SoC / Hardware Engineer <br/>
 [LinkedIn](https://linkedIn.com/in/neilkatahira) | [GitHub](https://github.com/neilkatahira)
 
 
 **Jocelyn Park** <br/>
 B.S. Electrical & Computer Engineering December 2021 <br/>
 Aspiring DSP Engineer <br/>
-[LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer) 
+[LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer)
 
 
 **Isabelle Asistin** <br/>
-[GitHub](https://github.com/ijasistin) 
+[GitHub](https://github.com/ijasistin)
 
 
 **Varsha Senthil** <br/>
@@ -42,7 +42,7 @@ Aspiring Hardware Engineer <br/>
 
 **Dr. Andre Knoesen <br/>
 Professor** <br/>
-[Website](https://faculty.engineering.ucdavis.edu/knoesen/) 
+[Website](https://faculty.engineering.ucdavis.edu/knoesen/)
 
 **Sean Alling <br/>
 Teaching Assistant** <br/>
