@@ -7,7 +7,7 @@
 
 | | |
 |:---------------------------------------------------:|:----------------------------------------------------------------------------------------:|
-|**Benjamin Moore**<br/> | ![Ben](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/Ben.png) |
+|**Benjamin Moore**<br/> | ![Ben](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/Ben.png?raw=true) |
 **Team Leader** <br/>
 B.S. Electrical Engineering June 2021 <br/>
 Aspiring Audio DSP Engineer <br/>
