@@ -17,6 +17,8 @@ Then we decided to take the project wireless! using a straightforward network of
 
 Our final signal flow chart ended up like this:
 
-![signalFlow](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/FlowChart.png?raw=true)
+<p align="center">
+  <img width="460" height="460" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/FlowChart.png?raw=true">
+</p>
 
 <video>  
