@@ -18,8 +18,8 @@
 
 # About the Project
 
-Three instruments (Drumpad, Camera Vision, and Footpad) work with selections specified in a MATLAB GUI. A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
-The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments. The Camera vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.
+Three instruments (Drumpad, Computer Vision, and Footpad) work with selections specified in a MATLAB GUI. A BeagleBone Black and a Bela Cape is utilized to process user inputs and output different notes.
+The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments. The Computer Vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible. The Footpad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.
 
 # Project Status
 
@@ -79,6 +79,8 @@ You can request any changes by making a [pull request](https://github.com/neilka
 * [Tyler Kelley](https://github.com/tfkelley)
 * [Ryan Ma](https://github.com/RyanMa1)
 * [Devon Liu](https://github.com/dvnliu)
+* Sean Alling 
+* Professor Andre Knoesen
 
 # Acknowledgments
 

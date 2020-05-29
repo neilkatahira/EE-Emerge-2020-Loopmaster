@@ -23,23 +23,20 @@ int pressed = 0;
 
 void setup()
 { 
-  Serial.begin(9600);
-//  pinMode(P1_6, INPUT);
-//  pinMode(P1_4, INPUT);
-//  pinMode(P1_5, INPUT);
-//  pinMode(P1_7, INPUT);
-//  pinMode(P2_0, INPUT);
-//  pinMode(P2_1, INPUT);
-//  pinMode(P2_2, INPUT);
-//  pinMode(P2_3, INPUT);
-//  pinMode(P2_4, INPUT);
-//  pinMode(P2_5, INPUT);
-//  pinMode(P2_6, INPUT);
-//  pinMode(P2_7, INPUT);
-  attachInterrupt(digitalPinToInterrupt(P1_6),pressed1_6,RISING);
-  attachInterrupt(digitalPinToInterrupt(P1_4),pressed1_4,RISING); 
-  attachInterrupt(digitalPinToInterrupt(P1_6),released1_6,FALLING);
-  attachInterrupt(digitalPinToInterrupt(P1_4),released1_4,FALLING);  
+  Serial.begin(115200);
+  pinMode(P1_6, INPUT);
+  pinMode(P1_4, INPUT);
+  pinMode(P1_5, INPUT);
+  pinMode(P1_7, INPUT);
+  pinMode(P2_0, INPUT);
+  pinMode(P2_1, INPUT);
+  pinMode(P2_2, INPUT);
+  pinMode(P2_3, INPUT);
+  pinMode(P2_4, INPUT);
+  pinMode(P2_5, INPUT);
+  pinMode(P2_6, INPUT);
+  pinMode(P2_7, INPUT);
+  // sets the digital pin as input
 }
 void loop()
 {
