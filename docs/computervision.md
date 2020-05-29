@@ -3,13 +3,11 @@
 ## Hardware  
 We chose the OpenMV H7 because it is an affordable, low power camera that is well documented and easy to work with. It has more than enough processing power to accomplish our tasks, as well as an integrated Python based IDE. Using python allowed us to take advantage of open source libraries, which simplified the learning curve of image processing algorithms.
 
-![OpenMV H7](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvh7.png?raw=true)
+<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvh7.png?raw=true" width="370"><img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/tvshield.png?raw=true" width="370">
 
 ## Mechanical  
 To mount the OpenMV H7 camera, we used a STL file provided by OpenMV [here](https://openmv.io/collections/products/products/openmv-cam-h7-case) and modified it in order to fit a [TV shield](https://openmv.io/collections/products/products/tv-shield) as well as screw terminals. To play the "camera instrument" live video feed is necessary to provide the user with the camera's field of view. A vertical mount was also added taking advantage of a ball socket, for a full range of adjustment. This mount was then superglued onto the main Hub of the project.  
-
-![Camera Model](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/CameraModel.png?raw=true)
-![Mount Model](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/ballandsocket.png?raw=true)
+<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/ballandsocket.png?raw=true" width="460"><img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/CameraModel.png?raw=true" width="280">
 
 ## Software  
 The software for tracking our camera instrument was developed in the OpenMV IDE. This is a straightforward IDE with an extensive user base. It had plenty of options to improve the code using computer learning algorithms and object identification.  
