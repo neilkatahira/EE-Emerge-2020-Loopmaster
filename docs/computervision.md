@@ -13,7 +13,7 @@ To mount the OpenMV H7 camera, we used a STL file provided by OpenMV [here](http
 The software for tracking our camera instrument was developed in the OpenMV IDE. This is a straightforward IDE with an extensive user base. It had plenty of options to improve the code using computer learning algorithms and object identification.
 
 <p align="center">
-  <img width="520" height="460" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvide.png?raw=true">
+  <img width="580" height="460" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvide.png?raw=true">
 </p>
 
 We tested a variety of different ways to track an object and found that using simple algorithms lead to inaccurate readings, and using complex algorithms - TensorFlow or other computer training - to identify and track an object created too much of a delay. From those preliminary tests, we decided to simplify the object instead.  
