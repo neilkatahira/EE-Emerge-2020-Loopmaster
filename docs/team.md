@@ -1,51 +1,21 @@
 # Team
-**Benjamin Moore <br/>
-Team Leader** <br/>
-B.S. Electrical Engineering June 2021 <br/>
-Aspiring Audio DSP Engineer <br/>
-[LinkedIn](https://linkedIn.com/in/brmoore21) | [GitHub](https://github.com/mooreben34)
+![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/4.png?raw=true)
 
 
-**Conrad Rowling <br/>
-Team Leader** <br/>
-B.S. Electrical Engineering June 2021 <br/>
-[LinkedIn](https://www.linkedin.com/in/conrad-rowling-28b569196/) | [GitHub](https://github.com/Conrad-Rowling)
+<div markdown="1">
+<p align="center">
+  EE-Emerge is part of the Department of Electrical and Computer Engineering at the University of California, Davis. Within a year, sophomores and juniors conceive, design, and build an interactive electronic system. Texas Instruments sponsors EE-Emerge.
+</p>
+</div>
 
 
-**Neil Katahira** <br/>
-B.S. Computer Engineering June 2021 <br/>
-Aspiring SoC / Hardware Engineer <br/>
-[LinkedIn](https://linkedIn.com/in/neilkatahira) | [GitHub](https://github.com/neilkatahira)
 
 
-**Jocelyn Park** <br/>
-B.S. Electrical & Computer Engineering December 2021 <br/>
-Aspiring DSP Engineer <br/>
-[LinkedIn](https://linkedIn.com/in/jocelyn-park) | [GitHub](https://github.com/spectivePer)
-
-
-**Isabelle Asistin** <br/>
-[GitHub](https://github.com/ijasistin)
-
-
-**Varsha Senthil** <br/>
-B.S. Computer Engineering June 2022  <br/>
-Aspiring Hardware Engineer <br/>
-[LinkedIn](https://linkedIn.com/in/varshasenthil) | [GitHub](https://github.com/varshaaaaa)
-
-
-**Tyler Kelley** <br/>
-[GitHub](https://github.com/tfkelley)
-
-
-**Devon Liu**   <br/>
-[GitHub](https://github.com/dvnliu)
-
-**Dr. Andre Knoesen <br/>
-Professor** <br/>
-[Website](https://faculty.engineering.ucdavis.edu/knoesen/)
-
-**Sean Alling <br/>
-Teaching Assistant** <br/>
-Ph.D Student in Electronic Engineering <br/>
-[Website](https://www.ece.ucdavis.edu/blog/alling-sean/)
+| | | |
+|:-------------------------:|:-------------------------:|:-------------------------:|
+|![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/patrick.png?raw=true) | ![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/michelle2.png?raw=true) |![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/sophie.png?raw=true) |
+| **Conrad Rowling** <br/> **Team Leader** <br/> Electrical & Computer Engineering Major.<br/> Third Year <br/>  |**Neil Katahira** <br/> Electrical Engineering Major <br/> Third Year <br/> I play piano! |**Sophie Bolotin** <br/> Computer Science & Engineering Major <br/> Third Year <br/> I love to bake! |
+|![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/christian.png?raw=true)|  ![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/vanessa4.png?raw=true)|![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/victoria2.png?raw=true)|
+|**Christian Gonzalez** <br/> Electrical Engineering Major <br/> Third Year <br/> I enjoy playing soccer.|**Vanessa Liera** <br/> Electrical Engineering Major <br/> Second Year <br/>I like to dance. |**Victoria Liera** <br/> Electrical Engineering Major <br/>Second Year<br/> I have a twin.|
+|![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/anthony.png?raw=true) |  ![Test!](https://github.com/pmackle/EE-Emerge-2020-FourFace/blob/master/Documentation/Photos/noah.png?raw=true)||
+|**Anthony Pham** <br/> Electrical Engineering Major<br/> Second Year <br/> My eyes are a negative 8. |**Noah Tarr** <br/> Computer Engineering Major <br/> Third Year <br/> I love running and snowboarding||
