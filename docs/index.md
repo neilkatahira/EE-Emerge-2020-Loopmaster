@@ -15,8 +15,6 @@ The next step was creating a way to get user input; we thought of a couple very 
 
 Then we decided to take the project wireless! using a straightforward network of [XBee](https://www.adafruit.com/product/964) modules we were able to send multiple UART messages in unison, and create a modular sleek look to the system.
 
-![XBee](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/XBee.png?raw=true)
-
 Our final signal flow chart ended up like this:
 
 ![signalFlow](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/FlowChart.png?raw=true)
