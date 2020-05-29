@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <img width="200" height="200" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.gif">
+  <img width="200" height="200" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.gif?raw=true">
 </p>
 
 # About the Project:
