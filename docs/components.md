@@ -6,8 +6,8 @@ The Drumpad works like a traditional MIDI pad, where each of the twelve buttons 
 
 ![Drumpad](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad_transparent.png?raw=true)  
 
-## Computer Vision
-The Computer Vision maps different notes to select areas in a camera's view and tracks an LED to trigger sound.  
+## Camera
+The Camera uses computer vision to map different notes to select areas in a camera's view and tracks an LED to trigger sound.  
 
 ![Camera](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/hub1.png?raw=true)  
 
