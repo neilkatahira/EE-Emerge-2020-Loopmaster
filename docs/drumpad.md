@@ -2,6 +2,7 @@
 <img align="left" width="100" height="100" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.gif?raw=true"> The Drum Pad is a MIDI Pad-like instrument that houses twelve capacitive touch sensors. These sensors are all mapped towards different sounds that are programmed within Pure Data code. When styles are changed within the GUI, the sensors will output their corresponding sounds.
 
 
+
 ## Hardware  
 Hardware that is used in the Drum Pad include two custom PCB's: one that implements a comparator circuit with LM741 OP-Amps to facilitate sensor presses, and one that houses a MSP430 and an XBee module for wireless serial communication to the BeagleBone + Bela. The latter PCB is also used with the FootPad instrument.  
 
