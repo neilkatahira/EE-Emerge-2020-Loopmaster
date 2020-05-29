@@ -1,0 +1,28 @@
+- title: Home
+  url: /home.md
+  
+- title: Team
+  url: /team.md
+  
+- title: Components
+  url: /components.md
+  sublinks:
+    - title: DrumPad
+      url: /drumpad.md
+    - title: CameraVision
+      url: /computervision.md
+    - title: FootPad
+      url: /footpad.md
+    - title: Bela + Software
+      url: /software.md
+  
+- title: Other Links
+  url: /store.html
+  sublinks:
+    - title: View on GitHub
+      url: 
+    - title: View on Hackster.io
+      url:
+    - title: Download .zip
+      url:
+ 

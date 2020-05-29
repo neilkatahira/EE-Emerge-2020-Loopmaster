@@ -20,22 +20,23 @@ int pin1_6state = 0,
     //pin2_4state = 0,
     //pin2_6state = 0,
     //pin2_7state = 0;
-
-    void setup()
-{
+    
+void setup()
+{ 
   Serial.begin(115200);
-  //  pinMode(P1_6, INPUT);
-  //  pinMode(P1_4, INPUT);
-  //  pinMode(P1_5, INPUT);
-  //  pinMode(P1_7, INPUT);
-  //  pinMode(P2_0, INPUT);
-  //  pinMode(P2_1, INPUT);
-  //  pinMode(P2_2, INPUT);
-  //  pinMode(P2_3, INPUT);
-  //  pinMode(P2_4, INPUT);
-  //  pinMode(P2_5, INPUT);
-  //  pinMode(P2_6, INPUT);
-  //  pinMode(P2_7, INPUT);
+  pinMode(P1_6, INPUT);
+  pinMode(P1_4, INPUT);
+  pinMode(P1_5, INPUT);
+  pinMode(P1_7, INPUT);
+  pinMode(P2_0, INPUT);
+  pinMode(P2_1, INPUT);
+  pinMode(P2_2, INPUT);
+  pinMode(P2_3, INPUT);
+  pinMode(P2_4, INPUT);
+  pinMode(P2_5, INPUT);
+  pinMode(P2_6, INPUT);
+  pinMode(P2_7, INPUT);
+  // sets the digital pin as input
 }
 void loop()
 {
