@@ -8,7 +8,8 @@ Aspiring Audio DSP Engineer <br/>
 
 **Conrad Rowling <br/>
 Team Leader** <br/>
-[GitHub](https://github.com/Conrad-Rowling)
+B.S. Electrical Engineering June 2021 <br/>
+[LinkedIn](https://www.linkedin.com/in/conrad-rowling-28b569196/)[GitHub](https://github.com/Conrad-Rowling)
 
 
 **Neil Katahira** <br/>
