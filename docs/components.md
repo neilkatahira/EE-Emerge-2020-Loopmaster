@@ -4,12 +4,12 @@ Three in-house built instruments (DrumPad, Camera, and FootPad) work with select
 ## DrumPad
 The Drumpad works like a traditional MIDI pad, where each of the twelve buttons are mapped to notes that relate to a selection of instruments.  
 
-![Drumpad](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.png?raw=true)  
+![Drumpad](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad_transparent.png?raw=true)  
 
 ## Computer Vision
-The Computer Vision maps different notes to select areas in a camera's view and outputs sound when a trigger is visible.  
+The Computer Vision maps different notes to select areas in a camera's view and tracks an LED to trigger sound.  
 
-![Camera](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/Camera%20and%20Hub.jpg?raw=true)  
+![Camera](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/hub1.png?raw=true)  
 
 ## FootPad
 The FootPad takes input from a user's feet and manipulates the sounds created by the Camera Vision and Drumpad.  
