@@ -3,7 +3,7 @@
 ## Hardware  
 We chose the OpenMV H7 because it is an affordable, low power camera that is well documented and easy to work with. It has more than enough processing power to accomplish our tasks, as well as an integrated Python based IDE.  
 
-![OpenMV IDE](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvide.png?raw=true)
+![OpenMV IDE](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvide.PNG?raw=true)
 
 ## Mechanical  
 To mount the OpenMV H7 camera, we used a STL file provided by OpenMV [here](https://openmv.io/collections/products/products/openmv-cam-h7-case) and modified it into a vertical mount with a ball and socket adjustment. This is then superglued onto the main Hub of the project.  
