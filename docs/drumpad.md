@@ -1,7 +1,5 @@
 # Drum Pad  
-<img align="left" width="100" height="100" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.gif?raw=true"> The Drum Pad is a MIDI Pad-like instrument that houses twelve capacitive touch sensors. These sensors are all mapped towards different sounds that are programmed within Pure Data code. When styles are changed within the GUI, the sensors will output their corresponding sounds.
-
-
+<img align="right" width="100" height="100" src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumpad.gif?raw=true"> The Drum Pad is a MIDI Pad-like instrument that houses twelve capacitive touch sensors. These sensors are all mapped towards different sounds that are programmed within Pure Data code. When styles are changed within the GUI, the sensors will output their corresponding sounds.
 
 
 ## Hardware  
