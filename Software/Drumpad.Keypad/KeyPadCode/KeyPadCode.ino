@@ -29,7 +29,7 @@ void setup()
 { 
   Serial.begin(115200);
   pinMode(P1_6, INPUT);
-  pinMode(P1_4, INPUT);
+/*  pinMode(P1_4, INPUT);
  pinMode(P1_5, INPUT);
  pinMode(P1_7, INPUT);
  pinMode(P2_0, INPUT);
@@ -39,23 +39,27 @@ void setup()
  pinMode(P2_4, INPUT);
  pinMode(P2_5, INPUT);
  pinMode(P2_6, INPUT);
- pinMode(P2_7, INPUT);  
+ pinMode(P2_7, INPUT); */
+//   attachInterrupt(digitalPinToInterrupt(P1_6),pressed1_6,RISING);
+//   attachInterrupt(digitalPinToInterrupt(P1_4),pressed1_4,RISING); 
+//   attachInterrupt(digitalPinToInterrupt(P1_6),released1_6,FALLING);
+//   attachInterrupt(digitalPinToInterrupt(P1_4),released1_4,FALLING);  
 }
 void loop()
 {
-    pin1_6state = ~digitalRead(P1_6);
-    pin1_4state = ~digitalRead(P1_4);
+    pin1_6state = digitalRead(P1_6);
+    pin1_4state = digitalRead(P1_4);
     
-    pin1_5state = ~digitalRead(P1_5);
-    pin1_7state = ~digitalRead(P1_7);
-    pin2_0state = ~digitalRead(P2_0);
-    pin2_1state = ~digitalRead(P2_1);
-    pin1_0state = ~digitalRead(P1_0);
-    pin1_3state = ~digitalRead(P1_3);
-    pin2_4state = ~digitalRead(P2_4);
-    pin2_5state = ~digitalRead(P2_5);
-    pin2_6state = ~digitalRead(P2_6);
-    pin2_7state = ~digitalRead(P2_7);
+    pin1_5state = digitalRead(P1_5);
+    pin1_7state = digitalRead(P1_7);
+    pin2_0state = digitalRead(P2_0);
+    pin2_1state = digitalRead(P2_1);
+    pin1_0state = digitalRead(P1_0);
+    pin1_3state = digitalRead(P1_3);
+    pin2_4state = digitalRead(P2_4);
+    pin2_5state = digitalRead(P2_5);
+    pin2_6state = digitalRead(P2_6);
+    pin2_7state = digitalRead(P2_7);
 
     if (pin1_6state > flag1_6)
       {
@@ -67,7 +71,7 @@ void loop()
           Serial.write("|");
           flag1_6 = 0;
       }
-    
+    /*
     if (pin1_4state > flag1_4)
       {
           Serial.write("B");
@@ -180,4 +184,4 @@ void loop()
          flag2_7 = 0;
      }
       delay (10);    
-}
+} */
