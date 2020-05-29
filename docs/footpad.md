@@ -1,6 +1,8 @@
 # FootPad  
 The FootPad is a large six input floor board where inputs are passed with a user's feet. The FoodPad manipulates the sounds created by the Camera Vision and Drumpad.
 
+<img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/footpad.png?raw=true" width="460"><img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/drumkeypcb.png?raw=true" width="280"> 
+
 ## Hardware
 The FootPad uses the same main XBee PCB as the DrumPad. Each board press is detected as separate lines with UART.  
 
