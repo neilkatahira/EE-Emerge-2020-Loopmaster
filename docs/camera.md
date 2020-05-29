@@ -1,7 +1,7 @@
-# Computer Vision  
+# Camera
 
 ## Hardware  
-We chose the OpenMV H7 because it is an affordable, low power camera that is well documented and easy to work with. It has more than enough processing power to accomplish our tasks, as well as an integrated Python based IDE. Using python allowed us to take advantage of open source libraries, which simplified the learning curve of image processing algorithms.
+We chose the OpenMV H7 because it is an affordable, low power camera that is well documented and easy to work with. It has more than enough processing power to accomplish our tasks, as well as an integrated Python based IDE. Using Python allowed us to take advantage of open source libraries, which simplified the learning curve of image processing algorithms.
 
 <img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/openmvh7.png?raw=true" width="370"><img src="https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/tvshield.png?raw=true" width="370">
 
