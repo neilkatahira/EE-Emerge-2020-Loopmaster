@@ -10,7 +10,6 @@
 3. [Getting Started](#getting-started)
     1. [Dependencies](#dependencies)
     1. [Building](#building)
-    1. [Usage](#usage)
 4. [How to Get Help](#how-to-get-help)
 5. [Further Reading](#further-reading)
 6. [Authors](#authors)
@@ -56,10 +55,6 @@ PCB and enclosure files will be located in their respective subdirectories. Thes
 
 Software for the instruments will have to be compiled and loaded into their respective MCU's either in the Puredata IDE or Energia.
 
-## Usage
-
-TBD
-
 # How to Get Help
 
 You can request any changes by making a [pull request](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/pulls) or opening an issue.
@@ -79,7 +74,7 @@ You can request any changes by making a [pull request](https://github.com/neilka
 * [Tyler Kelley](https://github.com/tfkelley)
 * [Ryan Ma](https://github.com/RyanMa1)
 * [Devon Liu](https://github.com/dvnliu)
-* Sean Alling 
+* Sean Alling
 * Professor Andre Knoesen
 
 # Acknowledgments
