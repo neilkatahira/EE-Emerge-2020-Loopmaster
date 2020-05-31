@@ -74,8 +74,8 @@ You can request any changes by making a [pull request](https://github.com/neilka
 * [Tyler Kelley](https://github.com/tfkelley)
 * [Ryan Ma](https://github.com/RyanMa1)
 * [Devon Liu](https://github.com/dvnliu)
-* Sean Alling
-* Professor Andre Knoesen
+* [Sean Alling](https://www.ece.ucdavis.edu/blog/alling-sean/)
+* [Professor Andre Knoesen](https://faculty.engineering.ucdavis.edu/knoesen/)
 
 # Acknowledgments
 
