@@ -9,5 +9,4 @@
 |**Isabelle Asistin** <br/> [GitHub](https://github.com/ijasistin) | ![smile](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/temporaryAvatar.png?raw=true) |
 |**Varsha Senthil** <br/> B.S. Computer Engineering June 2022  <br/> Aspiring Hardware Engineer <br/> [LinkedIn](https://linkedIn.com/in/varshasenthil) & [GitHub](https://github.com/varshaaaaa) | <img src="/pictures/varsha.jpg" height="300"> |
 |**Tyler Kelley** <br/> B.S. Electrical Engineering June 2021 <br/> Focus: Electromagnetics <br/> [LinkedIn](https://www.linkedin.com/in/tyler-f-kelley/) & [GitHub](https://github.com/tfkelley) | <img src="/pictures/Tyler" height="300">|
- |
 |**Devon Liu**   <br/> [GitHub](https://github.com/dvnliu) | ![smile](https://github.com/neilkatahira/EE-Emerge-2020-Loopmaster/blob/master/pictures/temporaryAvatar.png?raw=true) |
